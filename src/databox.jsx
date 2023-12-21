@@ -7,7 +7,6 @@ const DataBox = ({ tempData, altitudeData, longitudeData, latitudeData }) => {
     justifyContent: 'space-around',
     border: '1px solid white',
     padding: '20px',
-    width: '75%',
     margin: '20px',
     backgroundColor: 'black',
     color: 'white',
