@@ -26,6 +26,15 @@
 .data-container p {
     margin: 10px 0;
     font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
 }
 
 strong {
