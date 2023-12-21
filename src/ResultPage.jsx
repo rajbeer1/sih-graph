@@ -24,10 +24,13 @@ const ResultPage = () => {
             <div className="image-container">
                 <img src={imageUri} alt="Descriptive Alt Text" />
             </div>
-            <div className="data-container">
-                {Object.entries(resultData).map(([key, value]) => (
-                    <p key={key}><span className="icon">{icons[key]}</span><strong>{key}:</strong> {value}</p>
-                ))}
+            <div className="data-box">
+                <h2 className="heading">Result Data</h2>
+                <div className="data-container">
+                    {Object.entries(resultData).map(([key, value]) => (
+                        <p key={key}><span className="icon">{icons[key]}</span><strong>{key}:</strong> {value}</p>
+                    ))}
+                </div>
             </div>
         </div>
     );
